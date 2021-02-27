@@ -1,0 +1,9 @@
+from earsketch import *
+
+init()
+setTempo(120)
+
+fitMedia(MILKNSIZZ_ADIOS_CONGA_GOLD, 1, 1, 3)
+fitMedia(YG_EDM_BASS_6, 2, 1, 2)
+fitMedia(YG_TRAP_PIANO_1, 3, 1, 3)
+finish()
