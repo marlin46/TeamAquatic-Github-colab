@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
         }
         else if(Input.GetKeyDown(KeyCode.UpArrow) && extraJumps == 0 && isGrounded == true)
         {
-
+            rb.velocity = Vector2.up * jumpForce;
         }
     }
     void Flip()
