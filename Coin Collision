@@ -1,0 +1,7 @@
+public void OnTriggerEnter2d(Collider other)
+{
+  if (other.gameObject.CompareTag("Player"))
+  {
+    ScoreManager.instance.ChangeScore(coinValue);
+  }
+}
