@@ -1,0 +1,23 @@
+void Start () {
+  rb = GetComponent<Rightbody2D>();
+  anim = GetComponent<Animatior>();
+}
+
+void Update () {
+
+  
+  
+  If (Input.GetButtonDown("Jump") && !isJumping) ...
+  
+    RunAnimations();
+
+}
+
+private void OnTriggerEnter2D(Collider2D other)
+{
+  if (other.gameObject.CompareTag("Coins"))
+  {
+    Destroy(other.gameObject);
+  }
+
+}
